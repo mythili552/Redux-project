@@ -30,6 +30,8 @@ function App() {
         ))}
       </ul>
 
+      {/* React_js,Redux,Git */}
+
     </>
   )
 }
