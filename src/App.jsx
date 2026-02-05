@@ -7,7 +7,7 @@ function App() {
   const { users, loading, error } = useSelector((state) => state.users);
 
   useEffect(()=>{
-    dispatch(fetchUsers());
+    dispatch(fetchUsers()); 
 
   },[dispatch]);
 
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <h1>Users:</h1>
+      <h1>Users List:</h1>
       <ul>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
