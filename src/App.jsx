@@ -13,6 +13,7 @@ function App() {
   },[dispatch]);
 
 // AntoAkash
+//adhi
   if (loading)
     return <h2>loading...</h2>
     
