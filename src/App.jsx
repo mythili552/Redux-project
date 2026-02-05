@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers } from "./usersSlice";
 import {useEffect} from "react";
+// slicer example
 
 function App() {
   const dispatch = useDispatch();
@@ -14,6 +15,7 @@ function App() {
 // AntoAkash
   if (loading)
     return <h2>loading...</h2>
+    
   if (error)
     return <h2>{error}</h2>
 
