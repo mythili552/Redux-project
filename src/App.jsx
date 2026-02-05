@@ -13,7 +13,7 @@ function App() {
 
 
   if (loading)
-    return <h2>loading....</h2>
+    return <h2>loading...</h2>
   if (error)
     return <h2>{error}</h2>
 
